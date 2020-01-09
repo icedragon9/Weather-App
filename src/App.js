@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import SearchBar from './searchBar';
 import WeatherDetails from './weatherDetails.js';
 import NavBar from './navbar.js'
-// import AddComment from './addcomment.js'
 
 class WeatherApp extends Component {
   constructor(props) {
