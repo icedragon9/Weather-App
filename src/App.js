@@ -52,16 +52,7 @@ let that = this;
       console.log("Response from openweathermap api " , response);
       let sunrise =  new Date(response.sys.sunrise*1000).toLocaleTimeString();
       let sunset =  new Date(response.sys.sunset*1000).toLocaleTimeString();
-      // console.log("sunrise " ,sunrise);
-
-      // sunrise = sunrise.getTime();
-      // sunset = sunset.getTime();
-      // sunrise = sunrise.split(' ');
-      // sunrise = sunrise[0];
-      // sunset = sunset.split(' ');
-      // sunset = sunset[0];
-
-      // cityWeatherDescription = response.weather[0].description
+    
       that.setState({
         cityNameFound: true,
         cityNameError: false,
